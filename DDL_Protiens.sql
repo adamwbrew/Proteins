@@ -52,14 +52,14 @@ GO
 -- Create Protein_Id table
 CREATE TABLE Protein_Id(
     Protein_Id_ID int primary key identity(1,1),
-    Protein_Id_Label varchar(50) not null
+    Protein_Id_Label varchar(450) not null
 );
 GO
 
 -- Create Gene table
 CREATE TABLE Gene(
     Gene_ID int primary key identity(1,1),
-    Gene_Label varchar(10) not null
+    Gene_Label varchar(250) not null
 );
 GO
 
@@ -73,7 +73,7 @@ GO
 -- Create Peptide table
 CREATE TABLE Peptide(
     Peptide_ID int primary key identity(1,1),
-    Peptise_Amount int not null
+    Peptide_Amount int not null
 );
 GO
 
@@ -101,8 +101,8 @@ GO
 -- Create Protein table
 CREATE TABLE Protein(
     Protein_ID int primary key identity(1,1),
-    Protein_Name varchar(50) not null,
-    Protein_Group varchar(25) not null,
+    Protein_Name varchar(450) not null,
+    Protein_Group varchar(250) not null,
     Protein_Id_ID int not null,
         constraint fk_Protein_Id_ID
         foreign key (Protein_Id_ID)
