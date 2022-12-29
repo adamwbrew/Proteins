@@ -61,7 +61,7 @@ INSERT INTO Protein(Protein_Name, Protein_Group, Protein_Id_ID, Gene_ID, Descrip
     INNER JOIN Peptide AS PE ON P.Peptides = PE.Peptide_Amount
 
 INSERT INTO Mouse_Protein(Protein_ID, Mouse_ID, Hits)
-    SELECT 
+    SELECT DISTINCT
         P.Protein_ID, 
         M.Mouse_ID, 
         MP.Hits
