@@ -1,0 +1,16 @@
+,Sample_Name,Virus,Biotin,Fraction
+0,1135-MRL_12,TurboID,72,whole brain
+1,3057-MLL-LP1_2,TDP43-TurboID,1.5,LP1
+2,3057-MLL-LS1_1,TDP43-TurboID,1.5,LS1
+3,3057-MLL-NUC_3,TDP43-TurboID,1.5,Nuclear
+4,3057-MRL-LP1_10,TDP43-TurboID,saline,LP1
+5,3057-MRL-LS1_7,TDP43-TurboID,saline,LS1
+6,3058-FRL_5,TurboID,1.5,whole brain
+7,3058-FRU_13,TurboID,72,whole brain
+8,3058-FRU-LP1_9,TurboID,72,LP1
+9,3058-FRU-LS1_6,TurboID,72,LS1
+10,3058-MRU_15,TDP43-TurboID,72,whole brain
+11,3062-MRL_4,TDP43-TurboID,1.5,whole brain
+12,3062-MRU_14,TDP43-TurboID,72,whole brain
+13,3062-MRU-LP1_11,TDP43-TurboID,72,LP1
+14,3062-MRU-LS1_8,TDP43-TurboID,72,LS1
