@@ -73,7 +73,7 @@ GO
 -- Create Peptide table
 CREATE TABLE Peptide(
     Peptide_ID int primary key identity(1,1),
-    Peptide_Amount int not null
+    Peptide_Amount int null
 );
 GO
 
