@@ -39,10 +39,11 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3489527/
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html#scipy.cluster.hierarchy.linkage
 
 #### Results
-![05084466-016c-4517-8cb4-83f119383c42](https://user-images.githubusercontent.com/104226913/213540385-470e873d-84a1-4f84-9b2c-80a8404cb4d4.png)
-![0f02b601-c225-4ee7-b84a-6ce4f3834314](https://user-images.githubusercontent.com/104226913/213540405-701e59a7-27b1-4480-b719-25933b05213c.png)
-![55e82293-ac2b-4e06-83b5-8feb02960871](https://user-images.githubusercontent.com/104226913/213540420-98781746-2138-413e-b6f9-cf244893b0ed.png)
-![f86e9503-9de7-4f55-8813-dee04da01131](https://user-images.githubusercontent.com/104226913/213540439-e3aa50cb-ded3-4e8e-9abf-8b563d0fefd4.png)
+![edf36322-b625-4699-9d89-6e06eb306ac7](https://user-images.githubusercontent.com/104226913/213549944-3c99d394-088f-4ed0-ace8-c5f4468fe0aa.png)
 
+![d3c91bf6-1e4e-4532-9b51-339a850df31b](https://user-images.githubusercontent.com/104226913/213549986-f5c0083e-1f46-441d-802f-87bcd517032e.png)
 
+![7ee6e19c-9116-4e3e-8a5f-70357af798c0](https://user-images.githubusercontent.com/104226913/213550029-53200569-de5f-41fc-90ec-0ebbf811f292.png)
+
+![ea43daf2-bdf5-45a4-9770-98b51ee80027](https://user-images.githubusercontent.com/104226913/213550059-0e6c1159-4139-48a0-8353-34dce0bb8230.png)
 
