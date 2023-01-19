@@ -36,10 +36,6 @@ For more information explaining the two methods above, click the following link.
 
 #### Results
 
-![98b13224-9e61-4272-89ae-f74fb3d14a1d](https://user-images.githubusercontent.com/104226913/213523052-e6079321-dfb7-484d-9ce7-6da04d96f0d6.png)
-
-![728fdd29-dc58-4122-bf50-5d853c2855f1](https://user-images.githubusercontent.com/104226913/213523077-d40a5100-5ff9-40e7-8be1-3ea6d3693cbc.png)
-
-![16ba07ba-bbbe-49d4-91b0-d6a493199fec](https://user-images.githubusercontent.com/104226913/213523104-456af4d0-2b3a-492b-b0c8-802ab683edbb.png)
+![1a30f893-4435-4337-aaf5-86fef58d0b1e](https://user-images.githubusercontent.com/104226913/213523514-95f9c744-3a01-4db2-9bec-1d5c7fe87382.png)
 
 
