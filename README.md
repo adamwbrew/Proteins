@@ -23,4 +23,4 @@ Holds visuals created by utilizing database with specified queries.
 ### Cluster Heat Maps
 
 Euclidean Distance: $ED(x,y) = sqrt((x_1 - y_1)^2 + ... + (x_n - y_n)^2)$
-Ward Minimization Algorithim: $d(u, v) = sqrt( frac(|v|+|s|)(T))$
+Ward Minimization Algorithim: $d(u, v) = sqrt( ((|v|+|s|)/T)d(v,s)^2 + ((|v|+|t|)/T)d(v,t)^2 - (|v|/T)d(s,t)^2)$
