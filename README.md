@@ -32,7 +32,9 @@ The Ward Minimization algoithim is where $u$ is the newly joined cluster consist
 
 Ward Minimization Algorithim: $d(u, v) = sqrt( ((|v|+|s|)/T)d(v,s)^2 + ((|v|+|t|)/T)d(v,t)^2 - (|v|/T)d(s,t)^2)$
 
-For more information explaining the two methods above, click the following link. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3489527/
+For more information explaining the two methods above, click the following links. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3489527/
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html#scipy.cluster.hierarchy.linkage
 
 #### Results
 
