@@ -20,7 +20,6 @@ Holds visuals created by utilizing database with specified queries.
 
 ![image](https://user-images.githubusercontent.com/104226913/212423256-9861cdf9-c313-411c-9190-1d71e95bf4ec.png)
 
-### Heat Maps
-![image](https://user-images.githubusercontent.com/104226913/212423414-6d8e888a-e20a-4a4b-8a01-0aabbe1418ea.png)
-![image](https://user-images.githubusercontent.com/104226913/212423442-959847fd-6877-4a58-b011-b181633671ef.png)
-![image](https://user-images.githubusercontent.com/104226913/212423505-cc0e5e58-f9bc-4c9a-8e1f-b49b3cc4915b.png)
+### Cluster Heat Maps
+
+Euclidean Distance: ED(x,y) = sqrt((x_1^2))
