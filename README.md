@@ -22,4 +22,4 @@ Holds visuals created by utilizing database with specified queries.
 
 ### Cluster Heat Maps
 
-Euclidean Distance: ED(x,y) = sqrt((x_1^2))
+Euclidean Distance: ED(x,y) = $sqrt((x_1^2))$
