@@ -33,16 +33,16 @@ The Ward Minimization algoithim is where $u$ is the newly joined cluster consist
 Ward Minimization Algorithim: $d(u, v) = sqrt( ((|v|+|s|)/T)d(v,s)^2 + ((|v|+|t|)/T)d(v,t)^2 - (|v|/T)d(s,t)^2)$
 
 For more information explaining the two methods above, click the following links. 
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3489527/
+
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html#scipy.cluster.hierarchy.linkage
 
 #### Results
-
-![a23ca992-1495-4e28-93ae-3edb6c8af1cd](https://user-images.githubusercontent.com/104226913/213523669-56737dfb-605b-472d-a22c-2dcc9821c3cf.png)
-
-![95fc6211-5ad1-4f14-a90f-f8feb948d926](https://user-images.githubusercontent.com/104226913/213523699-804ce11c-7991-4146-9064-2732609b3244.png)
-
-![46d90856-da91-4c52-800d-c38e3d5aaaaa](https://user-images.githubusercontent.com/104226913/213523712-74635de0-996f-45e0-ad9b-bb93c9f7e03f.png)
+![05084466-016c-4517-8cb4-83f119383c42](https://user-images.githubusercontent.com/104226913/213540385-470e873d-84a1-4f84-9b2c-80a8404cb4d4.png)
+![0f02b601-c225-4ee7-b84a-6ce4f3834314](https://user-images.githubusercontent.com/104226913/213540405-701e59a7-27b1-4480-b719-25933b05213c.png)
+![55e82293-ac2b-4e06-83b5-8feb02960871](https://user-images.githubusercontent.com/104226913/213540420-98781746-2138-413e-b6f9-cf244893b0ed.png)
+![f86e9503-9de7-4f55-8813-dee04da01131](https://user-images.githubusercontent.com/104226913/213540439-e3aa50cb-ded3-4e8e-9abf-8b563d0fefd4.png)
 
 
 
