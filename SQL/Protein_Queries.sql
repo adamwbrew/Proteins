@@ -232,13 +232,11 @@ ORDER BY Hits_per_Protein DESC
 -- TurboID whole brain, 72hr top hits in all replicates
 
 SELECT 
-G.Gene_Label,
-COUNT(G.Gene_Label) AS Protein_Repeats,
+P.Protein_Name,
 V.Virus_Label,
 B.Biotin_Label,
 F.Fraction_Label,
-SUM(MP.Hits) AS Hits,
-SUM(MP.Hits) / COUNT(G.Gene_Label) AS Hits_per_Protein
+SUM(MP.Hits) AS Hits
 FROM Mouse_Protein AS MP 
 INNER JOIN Mouse AS M on MP.Mouse_ID = M.Mouse_ID
 INNER JOIN Protein AS P on MP.Protein_ID = P.Protein_ID
@@ -250,6 +248,27 @@ INNER JOIN Gene AS G on P.Gene_ID = G.Gene_ID
 INNER JOIN Protein_Description AS PD on P.Description_ID = PD.Description_ID
 INNER JOIN Peptide AS PE on P.Peptide_ID = PE.Peptide_ID
 WHERE F.Fraction_Label = 'whole brain' AND B.Biotin_Label = '72' AND V.Virus_Label = 'TurboID'-- AND MP.Hits > 0
-GROUP BY G.Gene_Label, V.Virus_Label,B.Biotin_Label,F.Fraction_Label
-HAVING COUNT(G.Gene_Label) > 0 AND SUM(MP.Hits) > 0
-ORDER BY Hits_per_Protein DESC
+GROUP BY P.Protein_Name, V.Virus_Label,B.Biotin_Label,F.Fraction_Label
+HAVING COUNT(P.Protein_Name) > 0 AND SUM(MP.Hits) > 0
+ORDER BY Hits DESC
+
+
+SELECT 
+    M.Sample_Name,
+    P.Protein_Name,
+    V.Virus_Label,
+    B.Biotin_Label,
+    F.Fraction_Label,
+    MP.Hits
+    FROM Mouse_Protein AS MP 
+INNER JOIN Mouse AS M on MP.Mouse_ID = M.Mouse_ID
+INNER JOIN Protein AS P on MP.Protein_ID = P.Protein_ID
+INNER JOIN Virus AS V on M.Virus_ID = V.Virus_ID
+INNER JOIN Biotin AS B on M.Biotin_ID = B.Biotin_ID
+INNER JOIN Fraction AS F on M.Fraction_ID = F.Fraction_ID
+INNER JOIN Protein_Id AS PI on P.Protein_Id_ID = PI.Protein_Id_ID
+INNER JOIN Gene AS G on P.Gene_ID = G.Gene_ID
+INNER JOIN Protein_Description AS PD on P.Description_ID = PD.Description_ID
+INNER JOIN Peptide AS PE on P.Peptide_ID = PE.Peptide_ID
+WHERE M.Sample_Name != 'Q331K_M1' AND M.Sample_Name != 'Q331K_M2' AND M.Sample_Name != 'WT_M3' AND M.Sample_Name != 'WT_M4'
+ORDER BY MP.Hits DESC

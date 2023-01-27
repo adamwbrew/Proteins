@@ -41,7 +41,7 @@ INSERT INTO Gene(Gene_Label)
 
 INSERT INTO Protein_Description([Description])
     SELECT DISTINCT First_Protein_Description
-    FROM master.dbo.proteins_denormalized
+    FROM master.dbo.proteins_denormalized_2
 
 INSERT INTO Peptide(Peptide_Amount)
     SELECT DISTINCT Peptides
